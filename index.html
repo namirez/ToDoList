@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aplikasi To-do-list</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <h1>Aplikasi To-do-list</h1>
+    
+    <div class="search-container">
+      <input id="search" type="text" placeholder="Cari tugas...">
+      <button id="search-btn"><i class="fas fa-search"></i></button>
+    </div>
+
+    <div class="input-container">
+      <input id="task-input" type="text" placeholder="Tulis tugas disini">
+      <button id="add-btn">Tambah</button>
+    </div>
+
+
+    <div class="list-container">
+      <ul id="task-list"></ul>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
